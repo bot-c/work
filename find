@@ -1,0 +1,1 @@
+db.worker.find({"_id" : ObjectId("55ebeaec9cd1c24b70694cff") })

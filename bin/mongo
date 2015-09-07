@@ -1,0 +1,2 @@
+
+[ -z $1 ] && mongo ds041593.mongolab.com:41593/configdb -u ro -p ro || mongo ds041593.mongolab.com:41593/configdb -u $1 -p $2

@@ -1,0 +1,20 @@
+db.worker.insert(
+   {
+     app: { name: 'weed' },
+     create: new Date(),
+     update: new Date('Dec 24, 2011'),
+     feature: [ 'server', 'volume' ],
+     serverAttributes:
+        {
+          port: 9333
+        },
+
+     volumeAttributes:
+               {
+                 dir: '/data',
+                 max: 5,
+                 mserver: 'localhost:9333',
+                 port: 8080
+               }
+   }
+)
